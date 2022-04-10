@@ -251,7 +251,14 @@ vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
 # NFC
--vendor/lib/libsn100u_fw.so
+-vendor/bin/hw/vendor.nxp.hardware.nfc@1.2-service
+vendor/etc/init/vendor.nxp.hardware.nfc@1.2-service.rc
+vendor/etc/libnfc-nci.conf
+vendor/etc/libnfc-nxp.conf
+vendor/lib/libsn100u_fw.so
+vendor/lib64/nfc_nci.nqx.default.hw.so
+vendor/lib64/vendor.nxp.hardware.nfc@1.0.so
+vendor/lib64/vendor.nxp.hardware.nfc@1.1.so
 
 # Sensors
 -vendor/bin/sensors.qti
